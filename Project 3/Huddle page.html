@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="C:\Users\HP\Desktop\Zuri work\Project 3\Huddle-landing-page-Design\images\favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Lexend+Deca:wght@200&family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="C:\Users\HP\Downloads\Dash Board UNN PG 202021_files\PGBiodata_data\bootstrap.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle</title>
+</head>
+<body>
+   
+        <header>
+            <img src="Project 3/Huddle-landing-page-Design/images/logo.svg" alt="logo" id="logo">
+            <button id="demo">Try it free</button>
+        </header>
+        <section id="slide1">
+            <h1>Build The Community Your Fans Will Love</h1>
+             <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in general discussion </p>
+             <img src="Project 3/Huddle-landing-page-Design/images/illustration-mockups.svg">
+             <button class="act2">Get started for free</button>
+            </section>
+            <section id="slide2">
+                <h1>Grow together </h1>
+                <p>Generate meaningful discusions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out with a feedback form</p>
+                <img src="Project 3/Huddle-landing-page-Design/images/illustration-grow-together.svg">
+            </section>
+            <section id="slide3">
+                <img src="Project 3/Huddle-landing-page-Design/images/illustration-flowing-conversation.svg">
+                <h1>Flowing Conversations</h1>
+                <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just in-time loading for a more natural flow.</p>
+            </section>
+            <section id="slide4">
+                <h1>Your Users</h1>
+                <p>It takes no time to integrate Huddle with your app's authentication solution. This means once signed in, your users can start chatting immediately.</p>
+                <img src="Project 3/Huddle-landing-page-Design/images/illustration-your-users.svg">
+            </section>
+
+            <div id="prompt">
+                <h1>Ready to build your community?</h1>
+                <button class="act2">Get Started for Free</button>
+        </div>
+            <footer>
+                <ul id="ul1">
+                    <li> 
+                        <img src="Project 3\Huddle-landing-page-Design\images\icon-location.svg">
+                        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt ad ratione asperiores quidem a cum qui accusamus mollitia quae.</h4>
+                    
+                    </li>
+                    <li>
+                        <img src="Project 3\Huddle-landing-page-Design\images\icon-phone.svg">
+                        <h4>+1-543-123-4567</h4>
+                    </li>
+                    <li>
+                        <img src="Project 3\Huddle-landing-page-Design\images\icon-email.svg">
+                        <h4>example@huddle.com</h4>
+                    </li>
+                    </ul>
+                    <ul class="ul2">
+                    <li>About Us</li>
+                    <li> What we Do</li>
+                    <li>FAQ</li>
+                    </ul>
+                    <ul class="ul2">
+                    <li>Career</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                    </ul>
+                
+            </footer>
+    
+
+    <style>
+        @media screen and (max-width:375px){
+            body{
+                flex-direction: row;
+                box-sizing: border-box;
+            }
+            section{
+                width:100rem;
+                padding:none;
+                margin:auto;
+            
+            }
+            h1,p{
+                text-align:center ;
+                width:auto;
+                display: inline;
+            }
+            img{
+                float:none;
+                display:block;
+            }
+            
+        }
+        :root{
+            --pink:hsl(322, 100%, 66%);
+            --palecyan:hsl(193, 100%, 96%);
+            --darkcyan:hsl(192, 100%, 9%);
+            --greyblue:hsl(208, 11%, 55%);
+
+        }
+        body{
+           display: flex;
+           flex-direction: column;
+        }
+        section{
+            width:100%;
+            height:100%;
+            padding-bottom:20px;
+           
+
+        }
+        #slide1{
+            background: var(--palecyan);
+           
+        }
+       header{
+        width:100%;
+        display:flex;
+        background: var(--palecyan);
+        
+       }
+       #logo{
+        padding-left: 10%;
+        padding-top: 1%;
+
+       }
+       #demo{
+        width:150px;
+        height:40px;
+        border-radius: 30px;
+        border: none;
+        background: white;
+        color:var(--darkcyan);
+        font-weight:700px;
+        position: relative;
+        left:50%;
+        font-family: Poppins;
+        font-weight: 700;
+        box-shadow: 1px 1px 0.6px 0.6px rgba(0, 0, 0, 0.041);
+       }
+       section img{
+        display: flex;
+        width:50%;
+        float:right;
+        margin-bottom:60px;
+        
+       }
+    h1{
+        font-family:Poppins, 'Calibri';
+        font-weight: 600;
+        font-size:35px;
+        line-height:2;
+        width:30%;
+        padding-left:10%;
+    }
+    p{
+        font-family: 'Open Sans','Calibri';
+        font-size: 18px;
+        font-weight: 400;
+        width:30%;
+        line-height: 2;
+        padding-left:10%;
+    }
+    .act2{
+        width:250px;
+        height:50px;
+        border: none;
+        font-family: 'Open Sans','Calibri';
+        font-weight: 700;
+        background: var(--pink);
+        border-radius: 20px;
+        color:white;
+        border-radius: 30px;
+        font-size: 16px;
+        margin-left:10%;
+    }
+
+    #prompt{
+        background: white;
+        width:49%;
+        height:30%;
+        position: absolute;
+        border:none;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        left:32%;
+        top:3320px;
+        justify-content: center;
+    }
+    #prompt h1{
+        font-family:Poppins, 'Calibri';
+        font-weight: 700;
+        font-size:35px;
+        display: inline;
+       text-align:center;
+       width:auto;
+       
+    }
+    #prompt .act2{
+        right:50%;
+    }
+    footer{
+        background: var(--darkcyan);
+        
+    }
+    footer ul {
+        display:inline-block;
+        color:white;
+        text-decoration: none;
+    }
+    .ul2{
+        display:inline-block;
+        margin-left:200px;
+        margin-bottom: 100px;
+        text-rendering: optimizeLegibility;
+    }
+    footer ul li h4 {
+       width:100px;
+       font-size: 12px;
+    }
+   
+    </style>
+</body>
+</html>
